@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body style="background-color:grey")></body>"
+    <div style="border:solid black;border-radius:30px;width:300px;height:600px;margin-left:800px;background-color:aqua;">
+        
+        <h1 style="margin-left:30px"> CALCULATOR</h1>
+        <div style="background-color:white ;height:250px;width:250px;border-radius:20px;border:solid black;margin-left:20px;display:flex">
+
+            <div id="screen" style="display:none"> <h1></h1>
+                <h1 id="output" id="output"></h1>
+                <div style="display:flex;">
+                    <input type="text" id="number1" style="width:50px;height:40px;margin-left:10px;border:solid goldenrod">
+                    <h1 style="border:solid red;width:50px;height:40px;text-align:center;width:100px" id="sign"></h1>
+                    <input type="text" id="number2"style="width:50px;height:40px;border:solid green">
+                            </div><br>
+            </div>
+        </div>
+        <br>
+           <button id="add" onClick="add()"style="width:50px;height:50px;margin-left:90px;background-color:yellow;cursor:;" >+</button>
+           <button id="minus" onClick="minus()"style="width:50px;height:50px;background-color:yellow">-</button><br><br>
+           <button id="divide" onClick="divide()" style="width:50px;height:50px;margin-left:90px;background-color:yellow">/</button>
+           <button id="multiply" onClick="multiply()"style="width:50px;height:50px;background-color:yellow">X</button>
+           <br>
+           <button id="refresh" onClick="refresh()" style="width:200px;height:40px;margin-left:50px;border-radius: 200px;margin-top:10px;background-color:blue">reset</button>
+           <br><br>
+           <button id="switchOff" onClick="Off()" style="width:100px;height:40px;margin-left:50px;border-radius:200px;background-color:red">Off</button>
+           <button id="switchOff" onClick="On()" style="width:100px;height:40px;border-radius: 200px;background-color:green">ON</button>
+    </div>
+    
+        <script src="counterapp.js"></script>
+    </body>
+</html>
